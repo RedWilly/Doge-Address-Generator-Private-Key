@@ -1,6 +1,6 @@
 # Dogecoin Address Generator
 
-This script generates random Dogecoin addresses and private keys, and checks the balance of each address using the Dogechain API. Any addresses with a non-zero balance are saved to a file called `rock.txt`.
+This script generates random Dogecoin addresses and private keys, and checks the balance of each address using the Dogechain API. Any addresses with a non-zero balance are saved to a file called `rock.txt`(index.js).
 
 ## Prerequisites
 
