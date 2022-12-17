@@ -1,8 +1,8 @@
 # Dogecoin Address Generator
 
-1.Index.js script generates random Dogecoin addresses and private keys, and checks the balance of each address using the Dogechain API. Any addresses with a non-zero balance are saved to a file called `rock.txt`.
+*1.Index.js* script generates random Dogecoin addresses and private keys, and checks the balance of each address using the Dogechain API. Any addresses with a non-zero balance are saved to a file called `rock.txt`.
 
-2.doge.js is generates 1000 Dogecoin wallet addresses and private keys using the dogecore-lib library.
+*2.doge.js* is generates 1000 Dogecoin wallet addresses and private keys using the dogecore-lib library.
 
 It starts by requiring the dogecore-lib and fs libraries. The dogecore-lib library provides functions for generating and manipulating Dogecoin addresses and private keys, while the fs (file system) library provides functions for reading and writing files.
 
@@ -12,8 +12,7 @@ For each PrivateKey object, it then calls the toAddress() function to get the co
 
 Finally, it writes the wallet addresses and private keys to two separate files, addr.txt and priv.txt, using the writeFileSync function from the fs library. The wallet addresses are written to addr.txt and the private keys are written to priv.txt. The map function is used to extract the relevant data from each object in the wallets array, and the join function is used to concatenate the resulting arrays into strings with newline characters between each item.
 
-3.Bulk.js
-The above code is a JavaScript script that checks the balance of a number of Dogecoin wallet addresses.
+*3.Bulk.js* a javascript file that bulk checks the balance of  Dogecoin wallet addresses.
 
 First, it imports the dogecore-lib and fs (file system) modules and the axios library, which is used for making HTTP requests.
 
